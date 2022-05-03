@@ -1,9 +1,12 @@
+from email.headerregistry import Address
+from unicodedata import name
 from pydantic import BaseModel
 
 class User(BaseModel):
-    nome: str
+    name: str
+    password: str
     email: str
-    telefone: str
-    endereço: str
-    profissão: str
-    senha: str  
+    phone: str
+    address: str
+    profession: str
+    

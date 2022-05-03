@@ -19,7 +19,7 @@ async def Atualizar_Usuario(id,user: User):
         "$set":dict(user)
     })
     return serializeDict(conn.local.user.find_one({"_id":ObjectId(id)}))
-@user.post('/')
+@user.post('/userAdd')
 async def criar_Usuario(user: User):
     conn.local.user.insert_one(dict(user))
     return serializeList(conn.local.user.find())
