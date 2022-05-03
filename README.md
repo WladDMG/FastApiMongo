@@ -1,14 +1,39 @@
 # FastApiMongo
- rerequisites
+ API requisites
  
-FastAPI basics
-Python installed
-Mongodb Community server installed
+ - FastAPI basics
+
+ - Python installed
+
+ - Mongodb Community server installed
 
 Install Dependencies
-fastAPI
-uvicorn
-pymongo
+
+-  fastAPI
+-  uvicorn
+-  pymongo
 
 
-$ pip install fastapi uvicorn pymongo pymongo[srv]
+- $ pip install fastapi uvicorn pymongo pymongo[srv]
+
+Setup env
+
+- virtualenv venv
+
+For Linux/Mac
+
+- source venv/bin/activate
+
+For Windows
+
+- source venv/Scripts/activate
+
+Install package
+
+- pip install fastapi pymongo uvicorn
+
+Start server
+
+- uvicorn index:app --reload
+
+Front
