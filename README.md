@@ -22,18 +22,32 @@ Setup env
 
 For Linux/Mac
 
-- source venv/bin/activate
+- $ source venv/bin/activate
 
 For Windows
 
-- source venv/Scripts/activate
+- $ source venv/Scripts/activate
 
 Install package
 
-- pip install fastapi pymongo uvicorn
+- $ pip install fastapi pymongo uvicorn
 
 Start server
 
-- uvicorn index:app --reload
+- $ uvicorn index:app --reload
 
-Front
+Front requisites
+
+- node.js
+- Expo CLI
+
+Install Dependencies
+
+- $ npm install --global expo-cli
+- $ npm install --global yarn
+
+Start 
+
+- $ expo start
+
+
