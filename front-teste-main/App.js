@@ -16,24 +16,22 @@ export default function App() {
       "phone": values.phone,
       "adress": values.adress,
       "profession": values.profession
-
-
     });
 
     var requestOptions = {
       method: 'POST',
+      mode: 'cors',
       headers: myHeaders,
       body: raw,
-      redirect: 'follow',
-      mode: 'no-cors',
+      redirect: 'follow'
     };
 
-    fetch("http://localhost:8000/userAdd", requestOptions)
+    fetch("http://localhost:8000/userAdd/", requestOptions)
       .then(response => response.text())
       .then(result => console.log(result))
       .catch(error => console.log('error', error));
 
-    alert("Pessoa cadatrada")
+    alert("Cliente Cadastrado com Sucesso")
   }
 
 
@@ -160,6 +158,8 @@ export default function App() {
                 <Text style={styles.textLoginButton} >Apagar Campo</Text>
               </TouchableOpacity>
             </View>
+
+
           </>
         )}
       </Formik>
