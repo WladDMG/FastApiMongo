@@ -31,10 +31,10 @@ python -m venv venv
 
 Para Windows (cmd):
 
-
+´´´
 python -m venv venv
 .\venv\Scripts\activate.bat
-
+´´´
 
 ---
 
