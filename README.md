@@ -1,5 +1,31 @@
 # FastApiMongo
 
+<p align="center">
+  <a href="https://fastapi.tiangolo.com/" target="_blank">
+    <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" alt="FastAPI" />
+  </a>
+  &nbsp;
+  <a href="https://www.mongodb.com/" target="_blank">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB" />
+  </a>
+  &nbsp;
+  <a href="https://www.uvicorn.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Uvicorn-4A4A4A?style=for-the-badge&logo=python&logoColor=white" alt="Uvicorn" />
+  </a>
+  &nbsp;
+  <a href="https://expo.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Expo-1B1F23?logo=expo&logoColor=white&style=for-the-badge" alt="Expo" />
+  </a>
+  &nbsp;
+  <a href="https://nodejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt="Node.js" />
+  </a>
+  &nbsp;
+  <a href="https://yarnpkg.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white&style=for-the-badge" alt="Yarn" />
+  </a>
+</p>
+
 API construída com FastAPI e MongoDB.
 
 ---
