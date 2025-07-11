@@ -17,40 +17,40 @@ API construída com FastAPI e MongoDB.
 
 Para Linux/Mac:
 
-
+```
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 Para Windows (PowerShell):
 
-
+```
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-
+```
 
 Para Windows (cmd):
 
-´´´
+```
 python -m venv venv
 .\venv\Scripts\activate.bat
-´´´
+```
 
 ---
 
 ### Instalar dependências Python
 
-
+```
 pip install fastapi uvicorn pymongo pymongo[srv]
-
+```
 
 ---
 
 ## Executar servidor FastAPI
 
-
+```
 uvicorn index:app --reload
-
+```
 
 A aplicação ficará disponível em: [http://localhost:8000](http://localhost:8000)
 
@@ -66,10 +66,10 @@ A aplicação ficará disponível em: [http://localhost:8000](http://localhost:8
 
 ## Instalar dependências frontend
 
-
+```
 npm install --global expo-cli
 npm install --global yarn
-
+```
 
 ---
 
